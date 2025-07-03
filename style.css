@@ -1,0 +1,100 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(165, 108, 33);
+}
+
+p.texto {
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.butao {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(165, 108, 33);
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p.mensagem {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+h2 {
+    margin-left: 5%;
+    font-size: 28px;
+    color: rgb(165, 108, 33);
+}
+ul {
+    padding: 30px;
+}
+li {
+    padding: 30px;
+    font-size: 22px;
+}
+
+li.item1 {
+    list-style: url(img/game-controller.png);
+}
+li.item2 {
+    list-style: url(img/tv.png);
+}
+li.item3 {
+    list-style: url(img/cooking.png);
+}
+.imagem-lista {
+    border-radius: 3%;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+th {
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    border: 4px solid rgb(165, 108, 33);
+    background-color: rgb(236, 164, 69);
+}
+td {
+    text-align: right;
+    font-size: 20px;
+    border: 4px solid rgb(165, 108, 33);
+}
+.imagem {
+    width: 100%;
+}
+.texto-tabela {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#link {
+    text-align: center;
+}
+.site {
+    color: rgb(165, 108, 33);
+    text-decoration: none;
+}
+.site:hover {
+    color: rgb(235, 203, 162);
+}
